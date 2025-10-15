@@ -1,21 +1,20 @@
-letters = 0    
-digits = 0     
-spaces = 0     
-others = 0     
-
+letters = 0   
+digits = 0    
+spaces = 0    
+others = 0    
 
 user_input = input()
-
 
 for char in user_input:
     if char.isalpha(): 
         letters += 1
-    elif char.isdigit():  
+    elif char.isdigit(): 
         digits += 1
-    elif char.isspace(): 
+    elif char.isspace():  
         spaces += 1
-    else:  # 其他字符
+    else:  
         others += 1
+
 
 print(f"英文字符：{letters}")
 print(f"数字：{digits}")
