@@ -17,7 +17,7 @@ for char in user_input:
     else:  # 其他字符
         others += 1
 
-print(f"英文字符：{letters}个")
-print(f"数字：{digits}个")
-print(f"空格：{spaces}个")
-print(f"其他字符：{others}个")
+print(f"英文字符：{letters}")
+print(f"数字：{digits}")
+print(f"空格：{spaces}")
+print(f"其他字符：{others}")
