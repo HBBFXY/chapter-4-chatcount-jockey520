@@ -3,10 +3,10 @@ digits = 0
 spaces = 0     
 others = 0     
 
-# 获取用户输入
-user_input = input("请输入一行字符：")
 
-# 遍历每个字符并统计
+user_input = input("")
+
+
 for char in user_input:
     if char.isalpha(): 
         letters += 1
