@@ -4,7 +4,7 @@ spaces = 0
 others = 0     
 
 
-user_input = input("")
+user_input = input()
 
 
 for char in user_input:
