@@ -1,4 +1,3 @@
-
 text = input()
 
 english_chars = 0
@@ -15,7 +14,6 @@ for char in text:
         spaces += 1
     else:
         others += 1
-
 
 print(f"英文字符: {english_chars}")
 print(f"数字: {digits}")
